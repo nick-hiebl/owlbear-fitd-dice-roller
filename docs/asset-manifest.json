@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5ca935b.css",
-    "main.js": "/static/js/main.6a6b688e.js",
-    "static/js/787.a9120f67.chunk.js": "/static/js/787.a9120f67.chunk.js",
-    "index.html": "/index.html",
-    "main.b5ca935b.css.map": "/static/css/main.b5ca935b.css.map",
-    "main.6a6b688e.js.map": "/static/js/main.6a6b688e.js.map",
-    "787.a9120f67.chunk.js.map": "/static/js/787.a9120f67.chunk.js.map"
+    "main.css": "/owlbear-fitd-dice-roller/static/css/main.b5ca935b.css",
+    "main.js": "/owlbear-fitd-dice-roller/static/js/main.773bb6cd.js",
+    "static/js/787.a9120f67.chunk.js": "/owlbear-fitd-dice-roller/static/js/787.a9120f67.chunk.js",
+    "index.html": "/owlbear-fitd-dice-roller/index.html",
+    "main.b5ca935b.css.map": "/owlbear-fitd-dice-roller/static/css/main.b5ca935b.css.map",
+    "main.773bb6cd.js.map": "/owlbear-fitd-dice-roller/static/js/main.773bb6cd.js.map",
+    "787.a9120f67.chunk.js.map": "/owlbear-fitd-dice-roller/static/js/787.a9120f67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5ca935b.css",
-    "static/js/main.6a6b688e.js"
+    "static/js/main.773bb6cd.js"
   ]
 }
