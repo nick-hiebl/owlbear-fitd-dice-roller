@@ -2,26 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 24px;
 }
 
 .App-link {
@@ -35,4 +20,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.diceOptions {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.diceCount {
+  border-radius: 50%;
+  border: none;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  background-color: #a8f;
+  color: white;
+}
+
+.diceCount:hover {
+  background-color: #b6f;
+}
+
+.diceCount.selected {
+  background-color: #c0f;
+}
+
+.diceRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+}
+
+.die {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-size: 2em;
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.rollButton {
+  background-color: #a8f;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  height: 32px;
+  width: 96px;
+  font-size: 1.2em;
+}
+
+.rollButton:hover {
+  background-color: #b6f;
+}
+
+.rollButton:active {
+  background-color: #c0f;
+}
+
+.jitter {
+  animation: dice-jitter 0.18s;
+  animation-iteration-count: 3;
+}
+
+@keyframes dice-jitter {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+h2 {
+  font-size: 2em;
 }
