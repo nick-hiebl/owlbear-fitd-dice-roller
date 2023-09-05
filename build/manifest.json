@@ -1,0 +1,12 @@
+{
+  "name": "Simple React App",
+  "version": "0.0.1",
+  "manifest_version": 1,
+  "action": {
+    "title": "Demo Hello World",
+    "icon": "./icon.svg",
+    "popover": "/",
+    "height": 250,
+    "width": 400
+  }
+}
