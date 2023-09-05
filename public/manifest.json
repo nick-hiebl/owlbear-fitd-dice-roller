@@ -1,7 +1,8 @@
 {
-  "name": "Simple React App",
-  "version": "0.0.1",
+  "name": "FITD Dice Roller",
+  "version": "0.0.2",
   "manifest_version": 1,
+  "homepage_url": "https://nick-hiebl.github.io/owlbear-fitd-dice-roller/index.html",
   "action": {
     "title": "Demo Hello World",
     "icon": "./icon.svg",
