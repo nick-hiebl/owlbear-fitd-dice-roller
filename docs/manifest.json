@@ -4,9 +4,9 @@
   "manifest_version": 1,
   "homepage_url": "https://nick-hiebl.github.io/owlbear-fitd-dice-roller/index.html",
   "action": {
-    "title": "Demo Hello World",
+    "title": "FITD Dice Roller",
     "icon": "./icon.svg",
-    "popover": "/",
+    "popover": "/owlbear-fitd-dice-roller/index.html",
     "height": 250,
     "width": 400
   }
