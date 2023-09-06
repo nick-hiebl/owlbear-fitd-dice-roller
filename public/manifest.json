@@ -5,7 +5,7 @@
   "homepage_url": "https://nick-hiebl.github.io/owlbear-fitd-dice-roller/index.html",
   "action": {
     "title": "FITD Dice Roller",
-    "icon": "./icon.svg",
+    "icon": "/owlbear-fitd-dice-roller/icon.svg",
     "popover": "/owlbear-fitd-dice-roller/index.html",
     "height": 250,
     "width": 400
